@@ -1,0 +1,27 @@
+.About {
+  background-image: url(./images/Background_Galaxy.png);
+  transition: ease-in-out 2s;
+}
+
+.About-top {
+  background-image: url(./images/Background_Top.png);
+  height: 800px;
+  background-size: cover;
+}
+
+.About-top-description-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.About-top-description-title > span:nth-child(1) {
+  color: #0049ff;
+}
+
+.About-top-description-title > span:nth-child(2) {
+  color: #ea00a2;
+}
+
+.About-top-description-title > span:nth-child(3) {
+  color: #ffd400;
+}
