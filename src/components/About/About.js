@@ -120,7 +120,7 @@ export const About = () => {
             <div className="About-bottom-discord-body">
               We despise the closed discord meta as much as the next person, but
               if you really want in, you will find a way. (aka we don't have
-              mods and we want to keep it organic) You won't have to grind WL.
+              mods and we want to keep it organic) No WL grinding.
             </div>
             <div className="About-bottom-discord-buttons">
               <Button
@@ -137,7 +137,7 @@ export const About = () => {
                   (window.location.href = "https://forms.gle/kHVNXys92ttNkm5L7")
                 }
               >
-                Do the quiz
+                99% Nose Owners Fail This Test, Can You Beat The 1%?
               </Button>
             </div>
           </div>

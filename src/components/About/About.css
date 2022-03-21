@@ -6,12 +6,6 @@
   height: 2100px;
 }
 
-@media (max-width: 768px) {
-  .About {
-    background-size: 1200%;
-  }
-}
-
 .About-top {
   background-image: url(./images/Background_Top.png);
   height: 965px;
@@ -190,7 +184,7 @@
 }
 
 .About-bottom-discord-logo {
-  width: 100px;
+  width: 80px;
 }
 
 .About-bottom-discord-logo > img {
@@ -216,4 +210,92 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 10px;
+}
+
+@media (max-width: 959px) {
+  .About {
+    background-size: 1200%;
+  }
+
+  .About-top {
+    padding: 5%;
+    background: none;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .About-top-description {
+    width: 100%;
+  }
+
+  .About-top-traits-button-and-image {
+    flex-direction: column;
+  }
+
+  .About-top-traits-and-button {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .About-top-traits {
+    width: auto;
+  }
+
+  .About-top-traits-and-button > button {
+    width: 200px;
+    margin: 10px auto 0;
+  }
+
+  .About-top-image {
+    width: auto;
+  }
+
+  .About-mid {
+    background: none;
+    padding: 5%;
+    margin: auto;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+
+  .About-mid-roadmap-title {
+    transform: rotate(0deg);
+    color: #ea00a2;
+    font-weight: bold;
+    position: absolute;
+    font-size: calc(15px + 3vmin);
+    position: relative;
+    top: inherit;
+    left: inherit;
+  }
+
+  .About-mid-roadmap-image {
+    width: auto;
+    top: 0;
+    left: 0;
+    position: inherit;
+  }
+
+  .About-mid-roadmap-image > img {
+    transform: scale(1.5);
+  }
+
+  .About-bottom {
+    background: none;
+    padding: 5%;
+    top: 0;
+    height: auto;
+  }
+  .About-mid-roadmap-button {
+    position: inherit;
+    top: 0;
+    left: 0;
+    text-align: right;
+  }
+
+  .About-bottom-discord-buttons {
+    justify-content: center;
+  }
 }

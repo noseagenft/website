@@ -35,3 +35,9 @@
   color: white;
   font-size: calc(8px + 1vmin);
 }
+
+@media (max-width: 959px) {
+  .Header {
+    padding: 0 5%;
+  }
+}
