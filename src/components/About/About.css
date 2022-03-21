@@ -1,12 +1,29 @@
 .About {
   background-image: url(./images/Background_Galaxy.png);
   transition: ease-in-out 2s;
+  background-repeat: no-repeat;
+  background-size: 400%;
+  height: 2100px;
+}
+
+@media (max-width: 768px) {
+  .About {
+    background-size: 1200%;
+  }
 }
 
 .About-top {
   background-image: url(./images/Background_Top.png);
-  height: 800px;
-  background-size: cover;
+  height: 965px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 120px;
+  z-index: 2;
+  position: relative;
+}
+
+.About-top-description {
+  width: 500px;
 }
 
 .About-top-description-title {
@@ -24,4 +41,179 @@
 
 .About-top-description-title > span:nth-child(3) {
   color: #ffd400;
+}
+
+.About-top-description-title {
+  font-size: calc(15px + 2vmin);
+  font-weight: bold;
+  text-align: left;
+}
+
+.About-top-description-body {
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.About-top-traits-button-and-image {
+  margin-top: 30px;
+  color: #0049ff;
+  font-weight: bold;
+  display: flex;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.About-top-traits {
+  width: 230px;
+}
+
+.About-top-trait {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.About-top-image {
+  width: 450px;
+}
+
+.About-top-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+
+.About-top-traits-and-button {
+  text-align: left;
+}
+
+.About-top-traits-and-button > button {
+  margin-top: 10px;
+}
+.About-top-inspiration-value {
+  text-align: left;
+}
+
+.About-top-inspiration-value > div {
+  margin-top: 20px;
+}
+
+.About-top-inspiration-title {
+  font-size: calc(15px + 2vmin);
+  font-weight: bold;
+  color: #ffd400;
+}
+
+.About-top-inspiration-body {
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.About-top-value-title {
+  font-size: calc(15px + 2vmin);
+  font-weight: bold;
+  color: #ea00a2;
+}
+
+.About-top-value-body {
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.About-mid {
+  background-image: url(./images/Background_Side-Yellow.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position-x: -30px;
+  padding: 120px;
+  margin-top: -100px;
+  z-index: 0;
+  position: relative;
+  display: flex;
+}
+
+.About-mid-roadmap-title {
+  transform: rotate(270deg);
+  color: #ea00a2;
+  font-weight: bold;
+  position: absolute;
+  top: 200px;
+  left: 75px;
+  font-size: calc(15px + 3vmin);
+}
+
+.About-mid-roadmap-image {
+  width: 800px;
+  left: 180px;
+  top: -300px;
+  position: relative;
+}
+
+.About-mid-roadmap-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+
+.About-mid-roadmap-button {
+  position: absolute;
+  top: 300px;
+  right: 100px;
+}
+
+.About-bottom {
+  background-image: url(./images/Background_Bottom-Black.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  padding: 120px;
+  z-index: 2;
+  position: relative;
+  top: -500px;
+  height: 435px;
+  background-position-x: -30px;
+  padding-top: 240px;
+  padding-bottom: 0;
+}
+
+.About-bottom-discord {
+  display: flex;
+  flex-direction: column;
+}
+
+.About-bottom-discord-logo {
+  width: 100px;
+}
+
+.About-bottom-discord-logo > img {
+  width: 100%;
+}
+
+.About-bottom-discord-title {
+  color: #0049ff;
+  font-size: calc(15px + 2vmin);
+  font-weight: bold;
+  text-align: left;
+}
+
+.About-bottom-discord-body {
+  color: white;
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.About-bottom-discord-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
 }

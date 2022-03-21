@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: calc(15px + 2vmin);
-  padding: 0px 20px;
+  padding: 0px 50px;
 }
 
 .Header-logo {
@@ -33,5 +33,5 @@
 
 .Header-nav {
   color: white;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(8px + 1vmin);
 }

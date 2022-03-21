@@ -1,4 +1,7 @@
-import './Button.css';
+import "./Button.css";
 
-export const Button = ({ children }) =>
-  <button>{children}</button>
+export const Button = ({ children, ...props }) => (
+  <button className="Button" {...props}>
+    {children}
+  </button>
+);

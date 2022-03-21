@@ -18,3 +18,8 @@ a {
 a:hover {
   color: silver;
 }
+
+#root {
+  background: #222222;
+  height: 2200px;
+}
