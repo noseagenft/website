@@ -70,7 +70,7 @@ export const About = () => {
           <div className="About-top-inspiration">
             <div className="About-top-inspiration-title">Inspiration</div>
             <div className="About-top-inspiration-body">
-              To build a unique meta-body that belongs to you, part by part.
+              To build a unique meta-body that belongs to you, part by part. 1st collection of the 👃👁👄👩👨 VisAge series. Self-love & empowerment. Love thyself.
             </div>
           </div>
           <div className="About-top-value">
@@ -82,8 +82,8 @@ export const About = () => {
           <div>
             <Button
               onClick={() =>
-                (window.location.href =
-                  "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/ethos-and-inspiration")
+              (window.location.href =
+                "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/ethos-and-inspiration")
               }
             >
               Read Our Ethos
@@ -99,8 +99,8 @@ export const About = () => {
         <div className="About-mid-roadmap-button">
           <Button
             onClick={() =>
-              (window.location.href =
-                "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/roadmap/relaunch-roadmap")
+            (window.location.href =
+              "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/roadmap/relaunch-roadmap")
             }
           >
             Detailed Roadmap
