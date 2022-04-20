@@ -19,7 +19,7 @@ export const About = () => {
       <div className="About-top">
         <div className="About-top-description">
           <div className="About-top-description-title">
-            <span>The</span> <span>3,456</span> <span>Noses</span>
+            <span>The</span> <span>999</span> <span>Noses</span>
           </div>
           <div className="About-top-description-body">
             You and I, we are Boogers. We were the products of the Noses.
@@ -34,7 +34,7 @@ export const About = () => {
             <div className="About-top-traits">
               <div className="About-top-trait">
                 <span>Supply</span>
-                <span>3,456</span>
+                <span>999</span>
               </div>
               <div className="About-top-trait">
                 <span>Traits</span>
@@ -116,11 +116,9 @@ export const About = () => {
                 alt="Discord"
               />
             </div>
-            <div className="About-bottom-discord-title">Closed Discord</div>
+            <div className="About-bottom-discord-title">Open Discord</div>
             <div className="About-bottom-discord-body">
-              We despise the closed discord meta as much as the next person, but
-              if you really want in, you will find a way. (aka we don't have
-              mods and we want to keep it organic) No WL grinding.
+              Come on in and join the communosety.
             </div>
             <div className="About-bottom-discord-buttons">
               <Button
@@ -134,10 +132,10 @@ export const About = () => {
             <div className="About-bottom-discord-buttons">
               <Button
                 onClick={() =>
-                  (window.location.href = "https://forms.gle/kHVNXys92ttNkm5L7")
+                  (window.location.href = "https://discord.gg/t5wc8x2Htz")
                 }
               >
-                99% Nose Owners Fail This Test, Can You Beat The 1%?
+                Join the Discord
               </Button>
             </div>
           </div>
