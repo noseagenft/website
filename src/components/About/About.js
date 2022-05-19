@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { Button } from "../Button/Button";
 import "./About.css";
 import Nose from "./images/nose.png";
-import Roadmap from "./images/Background_Galaxy2.png";
+import MetAge from "./images/MetAge.png";
+import NosenudgePFP from "./images/nosenudge.png";
+import FTWYanPFP from "./images/ftwYan.webp";
 
 export const About = () => {
   useEffect(() => {
@@ -22,11 +24,9 @@ export const About = () => {
             <span>The</span> <span>999</span> <span>Noses</span>
           </div>
           <div className="About-top-description-body">
-            You and I, we are Boogers. We were the products of the Noses.
-            Unbeknownst to the Noses, the original Snot element still exists and
-            has gained sentience. We were transported to a foreign world, right
-            after we were made. The primordial goo that started all that life on
-            this planet? Yup, that's the Noses' doing, all by accident.
+            999 Noses sniffing for other body parts for the ultimate reunion into a single 3D metaverse-ready body.
+            <br /><br />
+            Staking for $SNIFF to participate in the world of MetAge.
           </div>
         </div>
         <div className="About-top-traits-button-and-image">
@@ -70,7 +70,7 @@ export const About = () => {
           <div className="About-top-inspiration">
             <div className="About-top-inspiration-title">Inspiration</div>
             <div className="About-top-inspiration-body">
-              To build a unique meta-body that belongs to you, part by part. 1st collection of the 👃👁👄👩👨 VisAge series. Self-love & empowerment. Love thyself.
+              To build a unique meta-body that belongs to you, part by part. Pioneer collection of the MetAge saga. Self-love & empowerment. Love thyself.
             </div>
           </div>
           <div className="About-top-value">
@@ -92,9 +92,9 @@ export const About = () => {
         </div>
       </div>
       <div className="About-mid">
-        <div className="About-mid-roadmap-title">Roadmap</div>
+        <div className="About-mid-roadmap-title">Vision</div>
         <div className="About-mid-roadmap-image">
-          <img src={Roadmap} alt="Roadmap" />
+          <img src={MetAge} alt="Vision" />
         </div>
         <div className="About-mid-roadmap-button">
           <Button
@@ -139,7 +139,54 @@ export const About = () => {
               </Button>
             </div>
           </div>
-          <div className="About-bottom-team"></div>
+          <div className="About-bottom-team">
+            <div className="About-bottom-team-title">Team</div>
+            <div className="About-bottom-team-body">
+              <div className="About-bottom-team-member">
+                <div className="About-bottom-team-member-pfp">
+                  <img
+                    src={NosenudgePFP}
+                    alt="nosenudge pfp"
+                  />
+                </div>
+                <div className="About-bottom-team-member-name">
+                  <span>nosenudge.sol</span>
+                  <a href="https://twitter.com/nosnaj" target="_blank" rel="noopener noreferrer">
+                    <img
+
+                      src="https://www.svgrepo.com/show/183608/twitter.svg"
+                      alt="Twitter"
+                    />
+                  </a>
+                </div>
+                <div className="About-bottom-team-member-description">
+                  <span>Dad, builder, art, writer, NFT flipooor.</span>
+                </div>
+              </div>
+              <div className="About-bottom-team-member">
+                <div className="About-bottom-team-member-pfp">
+                  <img
+                    src={FTWYanPFP}
+                    alt="ftwYan pfp"
+                  />
+                </div>
+                <div className="About-bottom-team-member-name">
+                  <span>ftwYan</span>
+                  <a href="https://twitter.com/ftWINyan" target="_blank" rel="noopener noreferrer">
+                    <img
+
+                      src="https://www.svgrepo.com/show/183608/twitter.svg"
+                      alt="Twitter"
+                    />
+                  </a>
+                </div>
+                <div className="About-bottom-team-member-description">
+                  <span>Marketing, socials, community, streamer.</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </section>

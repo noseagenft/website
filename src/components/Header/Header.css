@@ -34,6 +34,15 @@
 .Header-nav {
   color: white;
   font-size: calc(8px + 1vmin);
+  width: 170px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.Header-nav > a:hover > img {
+  transition: 0.3s;
+  filter: brightness(1.5);
 }
 
 @media (max-width: 959px) {
