@@ -21,12 +21,21 @@ export const About = () => {
       <div className="About-top">
         <div className="About-top-description">
           <div className="About-top-description-title">
-            <span>The</span> <span>999</span> <span>Noses</span>
+            <span>The</span> <span>456</span> <span>Noses</span>
           </div>
           <div className="About-top-description-body">
-            999 Noses sniffing for other body parts for the ultimate reunion into a single 3D metaverse-ready body.
-            <br /><br />
-            Staking for $SNIFF to participate in the world of MetAge.
+            456 Noses sniffing for other body parts for the ultimate reunion
+            into a single 3D metaverse-ready body.
+            <br />
+            <br />
+            <a
+              href="https://sniff.noseagenft.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sniffing for $SNIFF
+            </a>{" "}
+            to participate in the world of MetAge.
           </div>
         </div>
         <div className="About-top-traits-button-and-image">
@@ -34,7 +43,7 @@ export const About = () => {
             <div className="About-top-traits">
               <div className="About-top-trait">
                 <span>Supply</span>
-                <span>999</span>
+                <span>456</span>
               </div>
               <div className="About-top-trait">
                 <span>Traits</span>
@@ -60,7 +69,13 @@ export const About = () => {
             >
               Read the Aitepaper
             </Button>
-            <Button disabled>Preparing The Ritual</Button>
+            <Button
+              onClick={() =>
+                (window.location.href = "https://sniff.noseagenft.com")
+              }
+            >
+              Sniffing Station
+            </Button>
           </div>
           <div className="About-top-image">
             <img src={Nose} alt="Nose" />
@@ -70,7 +85,9 @@ export const About = () => {
           <div className="About-top-inspiration">
             <div className="About-top-inspiration-title">Inspiration</div>
             <div className="About-top-inspiration-body">
-              To build a unique meta-body that belongs to you, part by part. Pioneer collection of the MetAge saga. Self-love & empowerment. Love thyself.
+              To build a unique meta-body that belongs to you, part by part.
+              Pioneer collection of the MetAge saga. Self-love & empowerment.
+              Love thyself.
             </div>
           </div>
           <div className="About-top-value">
@@ -82,8 +99,8 @@ export const About = () => {
           <div>
             <Button
               onClick={() =>
-              (window.location.href =
-                "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/ethos-and-inspiration")
+                (window.location.href =
+                  "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/ethos-and-inspiration")
               }
             >
               Read Our Ethos
@@ -99,8 +116,8 @@ export const About = () => {
         <div className="About-mid-roadmap-button">
           <Button
             onClick={() =>
-            (window.location.href =
-              "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/roadmap/relaunch-roadmap")
+              (window.location.href =
+                "https://noseage.gitbook.io/nose-age-nft-aitepaper/about/roadmap/relaunch-roadmap")
             }
           >
             Detailed Roadmap
@@ -144,16 +161,16 @@ export const About = () => {
             <div className="About-bottom-team-body">
               <div className="About-bottom-team-member">
                 <div className="About-bottom-team-member-pfp">
-                  <img
-                    src={NosenudgePFP}
-                    alt="nosenudge pfp"
-                  />
+                  <img src={NosenudgePFP} alt="nosenudge pfp" />
                 </div>
                 <div className="About-bottom-team-member-name">
                   <span>nosenudge.sol</span>
-                  <a href="https://twitter.com/nosnaj" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://twitter.com/nosnaj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
-
                       src="https://www.svgrepo.com/show/183608/twitter.svg"
                       alt="Twitter"
                     />
@@ -165,16 +182,16 @@ export const About = () => {
               </div>
               <div className="About-bottom-team-member">
                 <div className="About-bottom-team-member-pfp">
-                  <img
-                    src={FTWYanPFP}
-                    alt="ftwYan pfp"
-                  />
+                  <img src={FTWYanPFP} alt="ftwYan pfp" />
                 </div>
                 <div className="About-bottom-team-member-name">
                   <span>ftwYan</span>
-                  <a href="https://twitter.com/ftWINyan" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://twitter.com/ftWINyan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
-
                       src="https://www.svgrepo.com/show/183608/twitter.svg"
                       alt="Twitter"
                     />
@@ -185,7 +202,6 @@ export const About = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
